@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { ReactSVG } from "react-svg";
-import { Button } from "../../../features/editor/user/Button";
 import { Toolbar } from "../../../features/editor/Toolbar";
 import ButtonICON from "../../../assets/images/button.svg";
 

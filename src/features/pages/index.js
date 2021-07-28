@@ -45,7 +45,6 @@ function App() {
           enabled={false}
           onRender={RenderNode}
         >
-          <Viewport>
             <h1>ACHA UONGO ...</h1>
             <Frame>
               <Element
@@ -373,7 +372,6 @@ function App() {
                 </Element>
               </Element>
             </Frame>
-          </Viewport>
         </Editor>
       </div>
     </ThemeProvider>
