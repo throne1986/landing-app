@@ -2,6 +2,8 @@ import React from 'react';
 import { useEditor } from '@craftjs/core';
 export * from './ToolbarItem';
 export * from './ToolbarTextInput';
+export * from './ToolbarSection';
+export * from './ToolbarRadio';
 
 export const Toolbar = () => {
   const { active, related } = useEditor((state) => ({

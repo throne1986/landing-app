@@ -57,10 +57,10 @@ CardBottom.craft = {
 export const Card = ({ background, padding = 20 }) => {
   return (
     <Container background={background} padding={padding}>
-    
+
         <Text text="Only texts" fontSize={20} />
         <Text text="are allowed up here" fontSize={15} />
-    
+
       <Element canvas id="buttons" is={CardBottom}>
         <Button size="small" text="Only buttons down here" />
       </Element>
