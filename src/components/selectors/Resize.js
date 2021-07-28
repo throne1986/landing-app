@@ -110,9 +110,9 @@ export const Resizer = ({ propKey, children, ...props }) => {
     };
   });
 
-  const resizable = useRef<Resizable>(null);
-  const isResizing = useRef<Boolean>(false);
-  const editingDimensions = useRef<any>(null);
+  const resizable = useRef(null);
+  const isResizing = useRef(false);
+  const editingDimensions = useRef(null);
   const nodeDimensions = useRef(null);
   nodeDimensions.current = { width: nodeWidth, height: nodeHeight };
 
